@@ -15,7 +15,7 @@ gem 'warden-github'
 # TODO: replace this
 gem 'sinatra_auth_github'
 gem 'rails_12factor', group: :production
-gem 'puma'
+gem 'puma', '2.11.1'
 gem 'foreman'
 gem 'sprockets-rails','3.0.0.beta1', :require => 'sprockets/railtie'
 
@@ -47,7 +47,6 @@ gem 'pdfkit'
 gem 'wkhtmltopdf-heroku'
 
 gem 'nokogiri', '1.6.6.2'
-gem 'puma', '>= 2.11.1'
 gem 'unicorn'
 
 # BUNDLE_WITHOUT="development:test:saas"
