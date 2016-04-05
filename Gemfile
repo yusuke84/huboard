@@ -46,6 +46,8 @@ gem 'redcarpet'
 gem 'pdfkit'
 gem 'wkhtmltopdf-heroku'
 
+gem 'nokogiri', '1.6.6.2'
+
 # BUNDLE_WITHOUT="development:test:saas"
 gem 'saas', require: nil, path: "vendor/engines/saas"
 gem 'faye_extensions', path: 'vendor/gems/faye_extensions'
